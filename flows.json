@@ -1,0 +1,16 @@
+{
+    "welcome": {
+        "message": "¡Bienvenido! Selecciona una opción para comenzar:\n1. Información General\n2. Ayuda",
+        "1": "informacion_general",
+        "2": "ayuda",
+        "default": "🤖 Por favor, selecciona 1 o 2 para continuar."
+    },
+    "informacion_general": {
+        "message": "Aquí está la información general. 📝",
+        "default": "🤖 No hay más opciones disponibles en este flujo."
+    },
+    "ayuda": {
+        "message": "Aquí está la ayuda disponible. 🆘",
+        "default": "🤖 No hay más opciones disponibles en este flujo."
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "bot-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "morgan": "^1.10.0",
+    "whatsapp-web.js": "^1.26.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "jest": "^29.0.0"
+  }
+}

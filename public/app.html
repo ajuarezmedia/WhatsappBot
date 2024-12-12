@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión del Chatbot</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Gestión del Chatbot</h1>
+    <div class="container">
+        <div class="box">
+            <h2>QR de WhatsApp</h2>
+            <div class="qr-display" id="qr-display">
+                <p>Cargando QR...</p>
+            </div>
+            <button id="toggle-bot-button">Activar/Desactivar Bot</button>
+            <p id="bot-status">Bot Desactivado</p>
+        </div>
+
+        <div class="box">
+            <h2>Flujo Dinámico</h2>
+            <div id="flow-container" class="flow-container"></div>
+            <button id="add-step-button">Añadir Nuevo Paso</button>
+        </div>
+    </div>
+
+    <!-- Modal de Edición -->
+    <div id="edit-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Editar Paso del Flujo</h2>
+            <label for="step-name">Nombre del Paso:</label>
+            <input type="text" id="step-name" disabled />
+            
+            <label for="step-message">Mensaje:</label>
+            <textarea id="step-message" rows="4"></textarea>
+            
+            <h3>Opciones</h3>
+            <div id="step-options"></div>
+            <button id="add-option-button">Añadir Opción</button>
+            <button id="save-step-button">Guardar Cambios</button>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
